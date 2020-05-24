@@ -1,0 +1,16 @@
+
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit; /* better practice, as it can changed on components and plugins */
+}
+
+html {
+    font-size: 62.5%; /* = 10px */
+}
+
+body {
+    box-sizing: border-box;
+}
