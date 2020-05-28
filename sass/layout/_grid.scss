@@ -1,6 +1,5 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
     margin: 0 auto;
 
     &:not(:last-child) {
@@ -11,12 +10,6 @@
 
     [class^="col-"] {
         // select all with class starting with col-
-        height: 60px;
-        background: linear-gradient(
-            to right bottom,
-            rgba($color-primary-light, 0.8),
-            rgba($color-primary-dark, 0.8)
-        );
         float: left;
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
